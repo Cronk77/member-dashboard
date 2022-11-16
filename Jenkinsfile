@@ -12,7 +12,7 @@ pipeline{
         stage ('Install'){
             steps{
                 //similar to npm install but is used in automated enviroments like CI/CD
-                sh 'npm ci'
+                sh 'npm install'
 //                sh 'npm i sonar-scanner --save-dev'
             }
         }
